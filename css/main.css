@@ -90,6 +90,7 @@ hr.star-dark,hr.star-light{
     margin-bottom: 2%;
     margin-right: 8%;
     margin-left: 8%;
+    margin-top: 2%;
 }
 
 .pictures{
@@ -124,8 +125,6 @@ hr.star-dark,hr.star-light{
 
 #star{
     margin-left: 41%;
-    margin-top: -2%;
-    margin-bottom: 5px;;
 
 }
 .texts{
@@ -171,16 +170,15 @@ hr.star-dark,hr.star-light{
     color: #495057;
 }
 
-#botao{
+.botao{
     background-color: #18BC9C;
     font-family: 'Lato', sans-serif;
     border: none;
-    padding: 30px;
+    padding: 17px 20px;
     color: white;
     font-size: 17px;
     border-radius: 7px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
+    margin: 20px 0px;
 }
 
 .box{
@@ -191,7 +189,7 @@ hr.star-dark,hr.star-light{
 /*Seção FOOTER*/
 .footer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #2C3E50;
     margin: 0%;
     padding-top:5rem;
@@ -208,7 +206,6 @@ hr.star-dark,hr.star-light{
 .titles-footer{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    object-position: center;
     text-align: center;
 }
 
@@ -227,11 +224,11 @@ hr.star-dark,hr.star-light{
 
 .icons{
     color: white;
-    display: flex;
     justify-content: space-around;
     align-items: stretch;
     size: 15px; 
     margin-left: 15px;
+    font-size: 35px;
 }
 
 .text-copy{
@@ -242,6 +239,7 @@ hr.star-dark,hr.star-light{
     text-align: center;
 }
 .f-margin{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 300px;
 }
