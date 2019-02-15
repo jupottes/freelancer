@@ -179,6 +179,7 @@ hr.star-dark,hr.star-light{
     font-size: 17px;
     border-radius: 7px;
     margin: 20px 0px;
+    width: 100px;
 }
 
 .box{
@@ -197,10 +198,8 @@ hr.star-dark,hr.star-light{
     color:#fff
 }
 
-.footer p{
-    flex-wrap: wrap;
-    margin-left: 10%;
-    margin-right: 10%;
+.footer-column {
+    margin: auto;
 }
 
 .titles-footer{
@@ -224,11 +223,15 @@ hr.star-dark,hr.star-light{
 
 .icons{
     color: white;
-    justify-content: space-around;
-    align-items: stretch;
-    size: 15px; 
-    margin-left: 15px;
+    margin: 5px;
     font-size: 35px;
+}
+.icons-set{
+    display: flex;
+    justify-content: center;
+}
+.address {
+    margin: 0;
 }
 
 .text-copy{
@@ -239,7 +242,7 @@ hr.star-dark,hr.star-light{
     text-align: center;
 }
 .f-margin{
-    margin-left: 80px;
-    margin-right: 80px;
+    /* margin-left: 80px;
+    margin-right: 80px; */
     width: 300px;
 }
