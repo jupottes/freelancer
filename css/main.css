@@ -1,13 +1,21 @@
 /*menu superior*/
-.menu{
+.menu-top{
     background-color: #2C3E50;
     padding:15px;
     margin:0px;
     list-style:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu ul li{
     display: inline;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu ul li a{
@@ -19,8 +27,13 @@
     border-bottom: none;
 }
 
-.home{
-    font-size: 25px;
+.home a{
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 
 /*plano de fundo azul*/
@@ -105,15 +118,25 @@ hr.star-dark,hr.star-light{
     color: white;
 }
 
+#texts-about{
+    margin-right: 5%;
+}
+
+#star{
+    margin-left: 41%;
+    margin-top: -2%;
+    margin-bottom: 5px;;
+
+}
 .texts{
     display: flex;
     align-content: flex-start;
-    margin-left: 20%;
-    margin-right: 20%;
     font-family: 'Lato', sans-serif;
-    text-align: left;
+    text-align: justify;
     color: white;
     font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .button-download{
@@ -157,14 +180,18 @@ hr.star-dark,hr.star-light{
     font-size: 17px;
     border-radius: 7px;
     margin-bottom: 20px;
-    position: relative;
     box-sizing: border-box;
+}
+
+.box{
+    border: none;
+    border-bottom: solid 1px rgb(197, 197, 197);
 }
 
 /*Seção FOOTER*/
 .footer{
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-evenly;
     background-color: #2C3E50;
     margin: 0%;
     padding-top:5rem;
@@ -174,12 +201,13 @@ hr.star-dark,hr.star-light{
 
 .footer p{
     flex-wrap: wrap;
-    align-self: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .titles-footer{
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     object-position: center;
     text-align: center;
 }
@@ -200,8 +228,10 @@ hr.star-dark,hr.star-light{
 .icons{
     color: white;
     display: flex;
-    justify-content: space-around; 
-    size: 20px;   
+    justify-content: space-around;
+    align-items: stretch;
+    size: 15px; 
+    margin-left: 15px;
 }
 
 .text-copy{
@@ -210,4 +240,8 @@ hr.star-dark,hr.star-light{
     object-position: center;
     color: white;
     text-align: center;
+}
+.f-margin{
+    margin-left: 5%;
+    margin-right: 5%;
 }
